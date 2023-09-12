@@ -1,0 +1,3 @@
+/workspaces/ecosim/build/CMakeFiles/ecosim.dir
+/workspaces/ecosim/build/CMakeFiles/edit_cache.dir
+/workspaces/ecosim/build/CMakeFiles/rebuild_cache.dir

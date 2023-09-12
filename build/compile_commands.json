@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/workspaces/ecosim/build",
+  "command": "/usr/bin/g++ -DBOOST_ALL_NO_LIB -DBOOST_SYSTEM_DYN_LINK -I/workspaces/ecosim/src -g -std=gnu++17 -o CMakeFiles/ecosim.dir/src/main.cpp.o -c /workspaces/ecosim/src/main.cpp",
+  "file": "/workspaces/ecosim/src/main.cpp"
+}
+]
