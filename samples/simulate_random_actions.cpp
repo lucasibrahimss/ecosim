@@ -8,7 +8,12 @@ bool random_action(float probability) {
     std::uniform_real_distribution<> dis(0.0, 1.0);
     return dis(gen) < probability;
 }
-
+int random_integer(const int min, const int max) {
+    static std::random_device rd;
+    static std::mt19937 gen(rd());
+    std::uniform_int_distribution<> dis(min, max);
+    return dis(gen);
+}
 // Simulate random actions for different entities
 void simulate_random_actions() {
     // Probabilities for different actions
